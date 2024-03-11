@@ -14,6 +14,7 @@ namespace ConsoleApp3
             Console.WriteLine("Helooo Sharpister!!!!");
 
             Console.WriteLine("Здесь был Азамат");
+            Console.WriteLine("что ты думаешь на счет всех? ");
 
             string str = Console.ReadLine();
             string rule = "все тупые";
