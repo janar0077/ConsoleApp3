@@ -13,20 +13,24 @@ namespace ConsoleApp3
 
             Console.WriteLine("Helooo Sharpister!!!!");
 
+            Console.WriteLine("Здесь был Азамат");
+
             string str = Console.ReadLine();
             string rule = "все тупые";
             if (rule == str)
             {
-                Console.WriteLine("поздровляю вы прошли проверку");
+                Console.WriteLine ($"поздровляю вы прошли проверку {rule}");;
             }
             else
             {
                 Console.WriteLine("неверно");
-
-            }          
+                Console.WriteLine("Hello, World!");
+                System.Console.WriteLine("Helooo Sharpister!!!!");
+                global::System.Console.WriteLine("Test");
+            }
+            Console.ReadKey();
         } 
     }
  }
-Console.WriteLine("Hello, World!");
-System.Console.WriteLine("Helooo Sharpister!!!!");
-global::System.Console.WriteLine("Test");
+
+
