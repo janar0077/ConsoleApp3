@@ -8,28 +8,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            byte a = 1;
+            byte b = 2;
 
-            Console.WriteLine("Hello, World!");
+            a = (byte)(a - b);
+            Console.WriteLine(a);
 
-            Console.WriteLine("Helooo Sharpister!!!!");
 
-            Console.WriteLine("Здесь был Азамат");
-            Console.WriteLine("что ты думаешь на счет всех? ");
-
-            string str = Console.ReadLine();
-            string rule = "все тупые";
-            if (rule == str)
-            {
-                Console.WriteLine ($"поздровляю вы прошли проверку {rule}");;
-            }
-            else
-            {
-                Console.WriteLine("неверно");
-                Console.WriteLine("Hello, World!");
-                System.Console.WriteLine("Helooo Sharpister!!!!");
-                global::System.Console.WriteLine("Test");
-            }
-            Console.ReadKey();
         } 
     }
  }
