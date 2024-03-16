@@ -2,17 +2,14 @@
 
 namespace ConsoleApp3
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            byte a = 1;
-            byte b = 2;
-
-            a = (byte)(a - b);
-            Console.WriteLine(a);
-
-
+            Random rnd = new Random();
+            int a = 2;
+            String b = "hello";
+            Product product = new Product();
         } 
     }
  }
